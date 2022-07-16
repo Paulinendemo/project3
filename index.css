@@ -103,9 +103,18 @@ form > button[type = "submit"], form > button[type = "reset"]{
     border-radius: 12px;
     font-size: 25px;
 } 
+form>button:hover{
+    color: white;
+    background-color: #4b0082;
+    pointer-events: painted;
+    cursor: grab;
+    moz-transition: all .4s ease -in-out;
+    opacity: 0.25;
+}
 hr{
     color: #4b0082;
     font-size: 30px;
+
 }
 
 
