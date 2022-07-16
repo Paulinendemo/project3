@@ -21,16 +21,16 @@ body{
     height: 80px;
     margin-top: 3px;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 40px;
     
     
     
 }
 
 
-.milkProduce{
-    width: 90%;
-    margin: 0px auto;
+.produce{
+    width: 100%;
+    margin: 4px auto;
     display: flex;
     justify-content: center;
     
