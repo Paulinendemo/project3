@@ -76,7 +76,7 @@ form > div > input[type="number"]{
     height: 45px;
     border-radius: 3rem;
     padding-top: 2px;
-     color: black;
+     color: #800080;
      font-size: 25px;
      font-weight: 700px;
 }
@@ -97,8 +97,8 @@ form > button[type = "submit"]{
 }
 form > button[type = "submit"], form > button[type = "reset"]{
     background: none;
-    background-color:blue;
-    color: black;
+    background-color:#dda0dd;
+    color: #800080;
     border: 3px solid rgb(163, 80, 91);
     border-radius: 12px;
     font-size: 25px;
