@@ -103,6 +103,10 @@ form > button[type = "submit"], form > button[type = "reset"]{
     border-radius: 12px;
     font-size: 25px;
 } 
+hr{
+    color: #4b0082;
+    font-size: 30px;
+}
 
 
 /* OUTPUT DISPLAY */
@@ -113,7 +117,7 @@ form > button[type = "submit"], form > button[type = "reset"]{
     margin-right: 5px;
     margin-left:5px ;
     box-shadow:0px 0px 10px rgb(170, 150, 179);
-    background-color: rgb(37, 59, 73);
+    background-color: #9370DB;
     border-radius: 8px;
     font-size: 20px;
     height: 700px;
@@ -122,7 +126,8 @@ form > button[type = "submit"], form > button[type = "reset"]{
 
 #displayTitle{
     text-align: center;
-    color: blue;
+    color: #4b0082;
+    font-size: 30px;
 }
 
 #outputData{
