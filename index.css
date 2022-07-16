@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: rgb(25, 49, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+    
+}
+
+/* TITLE */
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0px 0px 10px rgb(150, 179, 169);
+    background-color: rgb(25, 49, 41);
+    color: white;
+    height: 60px;
+    margin-top: 0px;
+    
+    
+    
+}
+
+
+.milkProduce{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+/* FORM */
+
+/* Input and Label */
+
+.formData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px rgb(150, 179, 169);
+    border-radius: 4px;
+    font-size: 16px;
+       
+}
+
+.formData   #sheds{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.formData > form{
+    width: 100%;
+    padding: 20px;
+    
+}
+
+form > div > input[type="number"]{
+    height: 30px;
+     
+}
+
+/* Button */
+form > button {
+    
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    
+}
+
+form > button[type = "submit"]{
+    margin-top: 20px;
+}
+form > button[type = "submit"], form > button[type = "reset"]{
+    background: none;
+    color: white;
+    border: 1px solid white;
+} 
+
+
+/* OUTPUT DISPLAY */
+.outputDisplay{
+    overflow: auto;
+    width: 50%;
+    box-shadow:0px 0px 10px rgb(150, 179, 169);
+    background-color: rgb(25, 49, 41);
+    border-radius: 4px;
+    font-size: 16px;
+    height: 550px;
+    
+}
+
+#displayTitle{
+    text-align: center;
+}
+
+#outputData{
+    padding: 0px 20px;
+}
+
+@media screen and (max-width: 760px) {
+    .milkProduce{
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .formData {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .outputDisplay{
+        width: 100%;
+       
+    }
+    
+}
