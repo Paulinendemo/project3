@@ -1,4 +1,4 @@
-## Dairy Farm Monitot
+## Dairy Farm Monitor
 
 ## Description 
 This is a website that is used to monitor milk productions and the sales made in each momth and the total income that year.It also shows the difference in earnings when the price in sale per litre was increased.
