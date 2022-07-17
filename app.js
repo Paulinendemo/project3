@@ -12,7 +12,7 @@ function produceReport(){
     //  totalProductionOfMilkInLitres
     let sumData = data.shed_A + data.shed_B + data.shed_C + data.shed_D;
     document.getElementById("outputData").innerHTML += "<br>"
-    document.getElementById("outputData").innerHTML += "<h2>Total Litres Per Shed</h2>";
+    document.getElementById("outputData").innerHTML += "<h2>Total Milk In Litres Per Shed</h2>";
     document.getElementById("outputData").innerHTML += "<p>Your total milk production in shed A is " + data.shed_A + " litres per day</p>";
     document.getElementById("outputData").innerHTML += "<p>Your total milk production in shed B is " + data.shed_B + " litres per day</p>";
     document.getElementById("outputData").innerHTML += "<p>Your total milk production in shed C is " + data.shed_C + " litres per day</p>";
