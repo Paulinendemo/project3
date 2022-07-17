@@ -13,7 +13,8 @@ https://paulinendemo.github.io/project2/
 Fill in the form with a number,make sure you fill every blank.
 Submit the data using the submit button.
 Results will be displayed on your left on the production reports.
-Scroll down to view all the results
+Scroll down to view all the results.
+Reset the page by selecting the submit button.
 ## Technology Used 
 HTML- which was used to build the structure of the pages.
 Javascript-used to input data run and produce results.
