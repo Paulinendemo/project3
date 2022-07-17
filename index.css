@@ -10,7 +10,7 @@ body{
     
 }
 
-/* TITLE */
+
 #title{
     display: flex;
     justify-content: center;
@@ -22,8 +22,7 @@ body{
     margin-top: 3px;
     font-weight: bolder;
     font-size: 40px;
-    
-    
+ 
     
 }
 
@@ -35,14 +34,10 @@ body{
     justify-content: center;
     justify-content: space-between;
     
-    
 }
 
-/* FORM */
 
-/* Input and Label */
-
-.dataForm{
+.data{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -57,7 +52,7 @@ body{
        
 }
 
-.dataForm #sheds{
+.data #sheds{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -66,7 +61,7 @@ body{
     
 }
 
-.dataForm > form{
+.data> form{
     width: 80%;
     padding: 30px;
     
