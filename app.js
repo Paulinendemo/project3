@@ -108,7 +108,7 @@ function produceReport(){
     incomeDecemberDifference = newIncomeDecember - incomeDecember;
 
     // incomeDifference
-    document.getElementById("outputData").innerHTML += "<h3>Income per onth for price change from Ksh.45 to Ksh.49.60 </h3>";
+    document.getElementById("outputData").innerHTML += "<h4>Income Per Month For Price Change From Ksh.45 to Ksh.49.60 </h4>";
     document.getElementById("outputData").innerHTML += "<p>January: At price = Ksh. 45, you will earn: Ksh. " + incomeJanuary + ". At price = 49.60, you will earn Ksh. " + Math.ceil(newIncomeJanuary) + ",rounding off the value to the nearest shillings ,you will earn Ksh. " + Math.round(incomeJanuaryDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
     document.getElementById("outputData").innerHTML += "<p>February: At price = Ksh. 45, you will earn: Ksh. " + incomeFebruary + ". At price = 49.60, you will earn Ksh. " + Math. ceil(newIncomeFebruary) + ", rounding off the value to the nearest shillings ,you will earn Ksh. " + Math.round(incomeFebruaryDifference) + ".</p>";
