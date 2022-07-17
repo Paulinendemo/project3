@@ -1,7 +1,7 @@
 ## Dairy Farm Monitot
 
 ## Description 
-This is a website that is used to monitor milk productions and the sales made in each momth and the total income that year.It also shows the difference i earnings when the price sale per litre was increased.
+This is a website that is used to monitor milk productions and the sales made in each momth and the total income that year.It also shows the difference in earnings when the price in sale per litre was increased.
 
 ## Installation Requirements 
 computer,tablet or phone
@@ -9,7 +9,7 @@ An access to the Internet
 
 ## Installation Process
  Click on the link provided bellow to view the site.
-https://paulinendemo.github.io/project2/
+https://paulinendemo.github.io/project3/
 Fill in the form with a number,make sure you fill every blank.
 Submit the data using the submit button.
 Results will be displayed on your left on the production reports.
