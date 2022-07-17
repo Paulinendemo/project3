@@ -105,7 +105,6 @@ form>button:hover{
     background-color: #4b0082;
     pointer-events: painted;
     cursor: grab;
-    moz-transition: all .4s ease -in-out;
     opacity: 0.25;
 }
 hr{
@@ -114,10 +113,8 @@ hr{
 
 }
 
-
-
 .output{
-    overflow: auto;
+    overflow-y: auto;
     width: 50%;
     height: 700px;
     margin-bottom: 12px;
@@ -126,8 +123,7 @@ hr{
     box-shadow:0px 0px 10px rgb(170, 150, 179);
     background-color: #9370DB;
     border-radius: 8px;
-    font-size: 20px;
-      
+    font-size: 20px;  
 }
 
 #display{
@@ -138,6 +134,7 @@ hr{
 }
 
 #outputData{
+    overflow: auto;
     padding: 5px 20px;
     font-size: 25px;
     font-weight: 700px;
@@ -151,7 +148,6 @@ hr{
     .produce{
         display: flex;
         flex-direction: column;  
-        transform-translate:(-50%,-50%) ;
     }
 
     .data {
