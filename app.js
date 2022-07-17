@@ -1,4 +1,4 @@
-function produceReport(){
+function dairyProductionReports(){
 
     event.preventDefault();
 
