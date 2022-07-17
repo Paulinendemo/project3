@@ -130,7 +130,9 @@ hr{
     text-align: center;
     color: #4b0082;
     font-size: 30px;
+    font-weight: 900px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: extra-expanded;
 }
 
 #outputData{
