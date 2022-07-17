@@ -92,11 +92,13 @@ form > button[type = "submit"]{
 }
 form > button[type = "submit"], form > button[type = "reset"]{
     background: none;
+    width: 150px;
     background-color:#dda0dd;
     color: #800080;
     border: 3px solid rgb(163, 80, 91);
-    border-radius: 12px;
+    border-radius: 350px;
     font-size: 25px;
+    
 } 
 form>button:hover{
     color: white;
@@ -108,7 +110,7 @@ form>button:hover{
 }
 hr{
     color: #4b0082;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
@@ -117,6 +119,7 @@ hr{
 .output{
     overflow: auto;
     width: 50%;
+    height: 700px;
     margin-bottom: 12px;
     margin-right: 5px;
     margin-left:5px ;
@@ -124,7 +127,7 @@ hr{
     background-color: #9370DB;
     border-radius: 8px;
     font-size: 20px;
-    height: 700px;  
+      
 }
 
 #display{
@@ -144,15 +147,16 @@ hr{
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
     .produce{
         display: flex;
         flex-direction: column;  
+        transform-translate:(-50%,-50%) ;
     }
 
-    .dataForm {
+    .data {
         width: 100%;
-        margin-bottom: 20px; 
+        margin-bottom: 18px; 
     }
 
     .outputDisplay{

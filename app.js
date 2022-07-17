@@ -1,4 +1,4 @@
-function produceReport(){
+function produceResults(){
 
     event.preventDefault();
 
@@ -20,38 +20,31 @@ function produceReport(){
 
     document.getElementById("outputData").innerHTML += "<p>Your total production per day is " + sumData + " litres per day</p>";
     
-
     dailyIncome = sumData * 45;
 
     document.getElementById("outputData").innerHTML += "<Br>"
-
     document.getElementById("outputData").innerHTML += "<hr>"
-
     document.getElementById("outputData").innerHTML += "<p>Your total daily income is Ksh. " + dailyIncome + " </p>";
-
     document.getElementById("outputData").innerHTML += "<hr>"
 
     weeklyIncome = dailyIncome * 7;
 
     document.getElementById("outputData").innerHTML += "<p>Your total weekly income is Ksh. " + weeklyIncome + " </p>";
-
     document.getElementById("outputData").innerHTML += "<hr>"
-
     document.getElementById("outputData").innerHTML += "<Br>"
 
-
-    incomeJanuary = dailyIncome * 31;
-    incomeFebruary = dailyIncome * 29;
-    incomeMarch = dailyIncome * 31;
-    incomeApril = dailyIncome * 30;
-    incomeMay = dailyIncome * 31;
-    incomeJune = dailyIncome * 30;
-    incomeJuly = dailyIncome * 31;
-    incomeAugust = dailyIncome * 31;
-    incomeSeptember = dailyIncome * 30;
-    incomeOctober = dailyIncome * 31;
-    incomeNovember = dailyIncome * 30;
-    incomeDecember = dailyIncome * 31;
+   incomeJanuary=dailyIncome*31;
+   incomeFebruary=dailyIncome*29;
+   incomeMarch=dailyIncome*31;
+   incomeApril=dailyIncome*30;
+   incomeMay=dailyIncome*31;
+   incomeJune=dailyIncome*30;
+   incomeJuly=dailyIncome*31;
+   incomeAugust=dailyIncome*31;
+   incomeSeptember=dailyIncome*30;
+   incomeOctober=dailyIncome*31;
+   incomeNovember=dailyIncome*30;
+   incomeDecember=dailyIncome*31;
 
      
     document.getElementById("outputData").innerHTML += "<p> Your total income for January is Ksh. " + incomeJanuary + " </p>"
