@@ -22,11 +22,8 @@ body{
     margin-top: 3px;
     font-weight: bolder;
     font-size: 40px;
-    text-decoration: dashed;
- 
-    
+    text-decoration: dashed;  
 }
-
 
 .produce{
     width: 100%;
@@ -88,8 +85,6 @@ form > button {
     margin-bottom: 20px;
     padding: 10px 20px;
     width: 100%;
-
-    
 }
 
 form > button[type = "submit"]{
@@ -102,9 +97,9 @@ form > button[type = "submit"], form > button[type = "reset"]{
     color: #800080;
     border: 3px dotted rgb(163, 80, 91);
     border-radius: 350px;
-    font-size: 25px;
-    
-} 
+    font-size: 25px;   
+}
+
 form>button:hover{
     color: white;
     background-color: #4b0082;
@@ -112,7 +107,6 @@ form>button:hover{
     cursor: grab;
     opacity: 0.25;
 }
-
 
 .output{
     overflow-y: auto;
