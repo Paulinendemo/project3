@@ -95,7 +95,7 @@ form > button[type = "submit"], form > button[type = "reset"]{
     width: 150px;
     background-color:#dda0dd;
     color: #800080;
-    border: 3px solid rgb(163, 80, 91);
+    border: 3px dotted rgb(163, 80, 91);
     border-radius: 350px;
     font-size: 25px;
     
@@ -107,11 +107,7 @@ form>button:hover{
     cursor: grab;
     opacity: 0.25;
 }
-hr{
-    color: #4b0082;
-    font-size: 20px;
 
-}
 
 .output{
     overflow-y: auto;
