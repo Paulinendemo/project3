@@ -23,13 +23,13 @@ function produceReport(){
     // dailyIncome
     document.getElementById("outputData").innerHTML += "<br>"
     document.getElementById("outputData").innerHTML += "<hr>"
-    document.getElementById("outputData").innerHTML += "<h3>Daily Income</h3>";
+    document.getElementById("outputData").innerHTML += "<h2>Daily Income</h2>";
     document.getElementById("outputData").innerHTML += "<p>Your total daily income is Ksh. " + dailyIncome + " </p>";
     document.getElementById("outputData").innerHTML += "<hr>"
 
     // weeklyIncome
     weeklyIncome = dailyIncome * 7
-    document.getElementById("outputData").innerHTML += "<h3>Weekly Income</h3>";
+    document.getElementById("outputData").innerHTML += "<h2>Weekly Income</h2>";
     document.getElementById("outputData").innerHTML += "<p>Your total weekly income is Ksh. " + weeklyIncome + " </p>";
     document.getElementById("outputData").innerHTML += "<hr>"
     document.getElementById("outputData").innerHTML += "<br>"
@@ -49,7 +49,7 @@ function produceReport(){
     incomeDecember = dailyIncome * 31;
 
     // priceKsh45
-    document.getElementById("outputData").innerHTML += "<h3>Your total income for each month </h3>";
+    document.getElementById("outputData").innerHTML += "<h3>Your Total Income For Each Month </h3>";
     document.getElementById("outputData").innerHTML += "<p> Your total income for January will be Ksh. " + incomeJanuary + " </p>"
     document.getElementById("outputData").innerHTML += "<p> Your total income for February will be Ksh. " + incomeFebruary + " </p>"
     document.getElementById("outputData").innerHTML += "<p> Your total income for March will be Ksh. " + incomeMarch + " </p>"
@@ -68,7 +68,7 @@ function produceReport(){
     // incomeInLeapYear366Days
     incomeInLeapYear = dailyIncome * 366;
 
-    document.getElementById("outputData").innerHTML += "<h3>Total Income In A Leap Year</h3>";
+    document.getElementById("outputData").innerHTML += "<h4>Total Income In A Leap Year</h4>";
     document.getElementById("outputData").innerHTML += "<p>Your total income in a leap year will be Ksh. " + incomeInLeapYear + " </p>";
     document.getElementById("outputData").innerHTML += "<hr>"
     document.getElementById("outputData").innerHTML += "<br>"
@@ -108,7 +108,7 @@ function produceReport(){
     incomeDecemberDifference = newIncomeDecember - incomeDecember;
 
     // incomeDifference
-    document.getElementById("outputData").innerHTML += "<h3>Income per month for price change from Ksh.45 to Ksh.49.60 </h3>";
+    document.getElementById("outputData").innerHTML += "<h3>Income per onth for price change from Ksh.45 to Ksh.49.60 </h3>";
     document.getElementById("outputData").innerHTML += "<p>January: At price = Ksh. 45, you will earn: Ksh. " + incomeJanuary + ". At price = 49.60, you will earn Ksh. " + Math.ceil(newIncomeJanuary) + ",rounding off the value to the nearest shillings ,you will earn Ksh. " + Math.round(incomeJanuaryDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
     document.getElementById("outputData").innerHTML += "<p>February: At price = Ksh. 45, you will earn: Ksh. " + incomeFebruary + ". At price = 49.60, you will earn Ksh. " + Math. ceil(newIncomeFebruary) + ", rounding off the value to the nearest shillings ,you will earn Ksh. " + Math.round(incomeFebruaryDifference) + ".</p>";
