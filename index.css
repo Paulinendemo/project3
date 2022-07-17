@@ -68,15 +68,17 @@ body{
 }
 
 form > div > input[type="number"]{
-    height: 45px;
+    height: 60px;
+    width: 450px;
     border-radius: 3rem;
     padding-top: 2px;
      color: #800080;
      font-size: 25px;
      font-weight: 700px;
+     background-color: #dda0dd;
 }
 
-/* Button */
+
 form > button {
     
     margin-bottom: 20px;
