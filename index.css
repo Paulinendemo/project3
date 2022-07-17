@@ -135,12 +135,13 @@ hr{
 
 #outputData{
     overflow: auto;
-    padding: 5px 20px;
+    padding: 10px 20px;
     font-size: 25px;
     font-weight: 700px;
     color: #4b0082;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 3px;
+    margin-bottom: 2px;
 }
 
 
@@ -155,7 +156,7 @@ hr{
         margin-bottom: 18px; 
     }
 
-    .outputDisplay{
+    .display{
         width: 100%;
        
     }
