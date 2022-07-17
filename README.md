@@ -1,4 +1,4 @@
-## AgriPlus
+## Dairy Farm Monitot
 
 ## Description 
 This is a website that is used to monitor milk productions and the sales made in each momth and the total income that year.It also shows the difference i earnings when the price sale per litre was increased.
